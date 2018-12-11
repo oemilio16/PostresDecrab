@@ -48,226 +48,28 @@
 	</script>
 
 	<style>
-		@font-face {
-		  font-family: 'Palanquin';
-		  src: url('fonts/PalanquinDark-Regular.eot'); /* IE9 Compat Modes */
-		  src: url('fonts/PalanquinDark-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		       url('fonts/PalanquinDark-Regular.woff') format('woff'), /* Modern Browsers */
-		       url('fonts/PalanquinDark-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-		       url('fonts/PalanquinDark-Regular.svg#5da08b22565ac42555d65cf20d59fde3') format('svg'); /* Legacy iOS */
-		       
-		  font-style:   normal;
-		  font-weight:  400;
-		}
-		
-		.b1{
-			background-image: url('imgs/01.png');
+		#section0{
+			background-image: url('imgs/00.jpg');
 			background-position: center center;
 			background-size: 100% auto;
 		}
-		.b2{
-			background-image: url('imgs/01b.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		#section2{
-			background-image: url('imgs/02.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		#section3{
-			background-image: url('imgs/03.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		#section4{
-			background-image: url('imgs/04.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		#section5{
-			background-image: url('imgs/05.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		#section6{
-			background-image: url('imgs/06.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		#section7{
-			background-image: url('imgs/07.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		#section8{
-			background-image: url('imgs/08.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		#section9{
-			background-image: url('imgs/09.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		#section10{
-			background-image: url('imgs/10.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		#section11{
-			background-image: url('imgs/11.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		#section12{
-			background-image: url('imgs/12.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		#section13{
-			background-image: url('imgs/13.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		#section14{
-			
-		}
-		#section15{
-			background-image: url('imgs/15.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		.h1{
-			background-image: url('imgs/14.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		.h2{
-			background-image: url('imgs/14a.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		.h3{
-			background-image: url('imgs/14b.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		.h4{
-			background-image: url('imgs/14c.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		.h5{
-			background-image: url('imgs/14d.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		.h6{
-			background-image: url('imgs/14e.png');
-			background-position: center center;
-			background-size: 100% auto;
-		}
-		#menu{
-			font-family: 'Palanquin';
-			width: 235px;
+		#section0 a{
+			width: 100%;
 			height: 100%;
-			position: fixed;
+			display: block;
+			position: absolute;
 			left: 0;
 			top: 0;
-			z-index: 999999;
-			background-image: url('imgs/000.png');
-			background-size: 100% auto;
-			margin: 0;
-			padding: 0;
-			padding-top: 180px;
-		}
-		#menu li{
-			display: block;
-			padding-bottom: 5px;
-		}
-		#menu li a{
-			color: white;
-			padding-left: 25px;
-			text-decoration: none;
-		}
-		#menu li a.activex{
-			text-decoration: underline;
-		}
-		#menu li span{
-			display: inline-block;
-			width: 150px;
-			height: 3px;
-			background: white;
-			margin-left: 25px;
-		}
-		.fp-controlArrow.fp-prev {
-		    left: auto;
-		    right: 70px;
+			z-index: 999;
 		}
 	</style>
 </head>
 <body>
 
-<ul id="menu">
-	<li data-menuanchor="section1"><a href="#1" class="activex">Blintzers ></a></li>
-	<li data-menuanchor="section2"><a href="#2">Coffe & Toffee ></a></li>
-	<li data-menuanchor="section3"><a href="#3">Copa de moras ></a></li>
-	<li data-menuanchor="section4"><a href="#4">Flan de cajeta ></a></li>
-	<li data-menuanchor="section5"><a href="#5">Helado Decrab ></a></li>
-	<li data-menuanchor="section6"><a href="#6">Key Lime Pie ></a></li>
-	<li data-menuanchor="section7"><a href="#7">Mini De Banana ></a></li>
-	<li data-menuanchor="section8"><a href="#8">Mini De Zanahoria ></a></li>
-	<li data-menuanchor="section9"><a href="#9">Pastel de Banana  ></a></li>
-	<li data-menuanchor="section10"><a href="#10">Pastel de Zanahoria ></a></li>
-	<li data-menuanchor="section11"><a href="#11">Pay de nuez ></a></li>
-	<li data-menuanchor="section12"><a href="#12">Pie helado de chocolate ></a></li>
-	<li data-menuanchor="section13"><a href="#13">Shakeadito ></a></li>
-	<li><span></span></li>
-	<li data-menuanchor="section14"><a href="#14">Helados ></a></li>
-	<li data-menuanchor="section15"><a href="#15">Bebidas ></a></li>
-</ul>
-
 <div id="myContainer">
 
-	<div class="section" id="section1">
-		<div class="slide b1" data-anchor="slide1"><div class="fp-bg"></div></div>
-		<div class="slide b2" data-anchor="slide2"><div class="fp-bg"></div></div>
-	</div>	
-	<div class="section" id="section2">
-	</div>
-	<div class="section" id="section3">
-	</div>
-	<div class="section" id="section4">
-	</div>
-	<div class="section" id="section5">
-	</div>
-	<div class="section" id="section6">
-	</div>
-	<div class="section" id="section7">
-	</div>
-	<div class="section" id="section8">
-	</div>
-	<div class="section" id="section9">
-	</div>
-	<div class="section" id="section10">
-	</div>
-	<div class="section" id="section11">
-	</div>	
-	<div class="section" id="section12">
-	</div>
-	<div class="section" id="section13">
-	</div>
-	<div class="section" id="section14">
-		<div class="slide h1" data-anchor="slide1"><div class="fp-bg"></div></div>
-		<div class="slide h2" data-anchor="slide2"><div class="fp-bg"></div></div>
-		<div class="slide h3" data-anchor="slide3"><div class="fp-bg"></div></div>
-		<div class="slide h4" data-anchor="slide4"><div class="fp-bg"></div></div>
-		<div class="slide h5" data-anchor="slide5"><div class="fp-bg"></div></div>
-		<div class="slide h6" data-anchor="slide6"><div class="fp-bg"></div></div>
-	</div>
-	<div class="section" id="section15">
-		<div class="fp-bg"></div>
+	<div class="section" id="section0">
+	<a href="postres.html"></a>
 	</div>
 	
 </div>
